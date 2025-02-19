@@ -169,3 +169,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# -----------------------------
+# Arduino-specific ignores
+# -----------------------------
+# Ignore build output directory (Arduino IDE often creates a temporary build folder)
+.arduino_build/
+
+# Ignore compiled binary files
+*.hex
+*.elf
+*.bin
+*.o
